@@ -21,8 +21,9 @@ $fixers = [
   'php_unit_strict',
   'phpdoc_order',
   'short_array_syntax',
-  'strict',
-  'strict_param',
+  // if you need strict and strict_param, then comment in bellow two lines.
+  // 'strict',
+  // 'strict_param',
 ];
 
 return Symfony\CS\Config\Config::create()
